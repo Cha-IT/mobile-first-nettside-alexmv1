@@ -1,0 +1,33 @@
+[
+	{
+	  "name": "Cappuccino",
+	  "price": 45,
+	  "image": "images/cappuchino.jpg"
+	},
+	{
+	  "name": "Croissant",
+	  "price": 30,
+	  "image": "images/croissanat.jpg"
+	},
+	{
+	  "name": "Sandwich",
+	  "price": 60,
+	  "image": "images/sand.jpg"
+	},
+	{
+	  "name": "Latte",
+	  "price": 50,
+	  "image": "images/late.jpg"
+	},
+	{
+	  "name": "Brownie",
+	  "price": 35,
+	  "image": "images/brown.jpg"
+	},
+	{
+	  "name": "Smoothie",
+	  "price": 55,
+	  "image": "images/smoth.jpg"
+	}
+  ]
+  

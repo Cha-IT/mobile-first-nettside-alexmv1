@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kafé Aroma</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Hjem</a></li>
+        <li><a href="#menu">Meny</a></li>
+        <li><a href="#order">Bestill</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h1>Velkommen til Kafé Aroma</h1>
+      <p>Oppdag vår deilige meny og bestill direkte fra mobilen.</p>
+    </section>
+    <section id="menu">
+      <h2>Meny</h2>
+      <ul id="menu-list">
+        <!-- Menyelementer vil bli lagt til her dynamisk -->
+      </ul>
+    </section>
+    <section id="order">
+      <h2>Din Bestilling</h2>
+      <ul id="order-list">
+        <!-- Bestillingsliste vil bli lagt til her -->
+      </ul>
+      <button id="submit-order">Send Bestilling</button>
+    </section>
+    <section id="contact">
+      <h2>Kontakt Oss</h2>
+      <p>Adresse: Kafégata 45, 7050 Oslo</p>
+      <p>Telefon: 987 65 432</p>
+      <form id="contact-form">
+        <label for="name">Navn:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="phone">Telefonnummer:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="message">Melding:</label>
+        <textarea id="message" name="message"></textarea>
+        <button type="submit">Send Melding</button>
+      </form>
+      <div id="map">
+        <!-- Google Maps-kart vil bli integrert her -->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Kafé Aroma</p>
+  </footer>
+  <div id="modal" class="hidden">
+    <div class="modal-content">
+      <p id="modal-message"></p>
+      <button id="close-modal">Lukk</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
